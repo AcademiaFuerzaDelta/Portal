@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(../img/bg-img/fondo.JPG);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+}
+
+form
+{
+    margin: auto;
+    width: 60%;
+    max-width: 360px;
+    min-width: 340px;
+    background: rgba(192,192,192,0.7)	;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+h2
+{
+    text-align: center;
+    margin-bottom:  20px;
+    color: rgba(0,0,0,3);
+}
+
+input
+{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 15px 0;
+    font-size: 15px;
+
+    border: 2px solid #aaa;
+    border-radius: 4px;
+}
+
+input[type="submit"]
+{
+    background: linear-gradient(#dcc727, #dcc727);
+    border-radius: 7px;
+    font-size: auto;
+    font-style: normal;
+    font-family: monospace;
+}
+
+.logo{
+  text-align: center;
+  width: 250px;
+
+}
+@@font-face {
+  font-family: fuente;
+  src:url(../fonts/fuente.woff);
+}
+
+h1{
+  font-family:fuente;
+}
+
+.olvido{
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  text-shadow:
+  -4px -4px 0 #ffffff,
+
+}
